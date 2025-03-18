@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog ✨</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgb(28, 019, 120), rgb(170, 185, 225));
+    color: #333;
+}
+
+header, nav, footer {
+    background: #445ae8;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ul li {
+    background: #ffffff;
+    color: #333;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #d83e3e;
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #de5757;
+    border-radius: 5px;
+}
+</style>
+<body>
+
+    <header>
+        <h1>Welcome to My Blog ✍️</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Exploring Web Development &lt;3</h2>
+            <p>HTML & CSS are the backbone of web design. They help us create beautiful and structured web pages! &copy; 2025.</p>
+
+            <h3>📺 My Favorite Coding Tutorial</h3>
+            <iframe width="560" height="315" src="https://youtu.be/wRNinF7YQqQ?si=ENUFu3LkG-HyPSDV" 
+                title="YouTube Video" frameborder="0" allowfullscreen>
+            </iframe>
+
+            <h3>📍 Our School Location</h3>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.591846881394!2d123.89344197508186!3d10.294432889826545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99bfcc60d650d%3A0x5ee73506c68dd233!2sCebu%20Eastern%20College%20Cebu%20city!5e0!3m2!1sen!2sph!4v1742043673877!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                width="600" height="450" style="border:0;" allowfullscreen>
+            </iframe>
+
+            <h3>🔗 Useful Web Development Resources</h3>
+
+            <img src="animals.jpg" usemap="#image-map" alt="Interactive Image" width="500" height="200">
+
+            <map name="image-map">
+                <area shape="rect" coords="220,100,350,180" href="elephant.html" alt="Elephant Info" target="_blank">
+
+                <!-- Tiger Location (Previously Rabbit) -->
+                <area shape="rect" coords="30,30,150,120" href="tiger.html" alt="Tiger Info" target="_blank">
+
+  
+</map>
+            <h3>😊 My Favorite Emojis</h3>
+            <ul>
+                <li>&#x1F622; - Crying</li>
+                <li>&#x1F60F; - Smirk Face</li>
+                <li>&#x1F44D; - Thumbs Up</li>
+            </ul>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
